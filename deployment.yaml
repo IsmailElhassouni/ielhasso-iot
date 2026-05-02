@@ -16,7 +16,7 @@ spec:
       containers:
       - name: wil-playground
         image: wil42/playground:v1
-        port:
+        ports:
         - containerPort: 8888
 ---
 apiVersion: v1
